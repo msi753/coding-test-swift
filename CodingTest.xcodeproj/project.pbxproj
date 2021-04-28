@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C1C17192639BF3800D5E940 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C17182639BF3800D5E940 /* main.swift */; };
+		0C1C17292639C3A400D5E940 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C17282639C3A400D5E940 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,10 @@
 		0C1C16FB2639B32000D5E940 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1C17082639B8EA00D5E940 /* a+b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "a+b.swift"; sourceTree = "<group>"; };
 		0C1C170E2639BB9200D5E940 /* cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cat.swift; sourceTree = "<group>"; };
-		0C1C17182639BF3800D5E940 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0C1C17182639BF3800D5E940 /* aDividedByB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aDividedByB.swift; sourceTree = "<group>"; };
+		0C1C171F2639C23300D5E940 /* operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = operations.swift; sourceTree = "<group>"; };
+		0C1C17252639C30900D5E940 /* remainder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remainder.swift; sourceTree = "<group>"; };
+		0C1C17282639C3A400D5E940 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +72,10 @@
 			children = (
 				0C1C17082639B8EA00D5E940 /* a+b.swift */,
 				0C1C170E2639BB9200D5E940 /* cat.swift */,
-				0C1C17182639BF3800D5E940 /* main.swift */,
+				0C1C17182639BF3800D5E940 /* aDividedByB.swift */,
+				0C1C171F2639C23300D5E940 /* operations.swift */,
+				0C1C17252639C30900D5E940 /* remainder.swift */,
+				0C1C17282639C3A400D5E940 /* main.swift */,
 			);
 			path = InputOutput;
 			sourceTree = "<group>";
@@ -132,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C1C17192639BF3800D5E940 /* main.swift in Sources */,
+				0C1C17292639C3A400D5E940 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

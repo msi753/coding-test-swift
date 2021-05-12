@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CD81D232643B6CF006658BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C1751263A994700D5E940 /* main.swift */; };
+		0CE1E9B2264C345400C15327 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE1E9B1264C345400C15327 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +35,17 @@
 		0C1C173D263A84B000D5E940 /* leapYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leapYear.swift; sourceTree = "<group>"; };
 		0C1C1744263A8BA200D5E940 /* quadrant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quadrant.swift; sourceTree = "<group>"; };
 		0C1C174C263A931300D5E940 /* time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time.swift; sourceTree = "<group>"; };
-		0C1C1751263A994700D5E940 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0C1C1751263A994700D5E940 /* multipleTable2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleTable2739.swift; sourceTree = "<group>"; };
+		0CD81D2B26444425006658BC /* aPlusB10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aPlusB10950.swift; sourceTree = "<group>"; };
+		0CD81D3926450627006658BC /* sum8393.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sum8393.swift; sourceTree = "<group>"; };
+		0CD81D3E264508F4006658BC /* n2741.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = n2741.swift; sourceTree = "<group>"; };
+		0CD81D4526451AA8006658BC /* n2742.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = n2742.swift; sourceTree = "<group>"; };
+		0CD81D4F26451C52006658BC /* aPlusB11021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aPlusB11021.swift; sourceTree = "<group>"; };
+		0CD81D5526451D6A006658BC /* aPlusB11022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aPlusB11022.swift; sourceTree = "<group>"; };
+		0CD81D5926451DF2006658BC /* star2438.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = star2438.swift; sourceTree = "<group>"; };
+		0CD81D5C26452979006658BC /* star2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = star2439.swift; sourceTree = "<group>"; };
+		0CE1E9AE264C2C5200C15327 /* forIf10871.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forIf10871.swift; sourceTree = "<group>"; };
+		0CE1E9B1264C345400C15327 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,17 @@
 		0C1C1750263A98ED00D5E940 /* For */ = {
 			isa = PBXGroup;
 			children = (
-				0C1C1751263A994700D5E940 /* main.swift */,
+				0C1C1751263A994700D5E940 /* multipleTable2739.swift */,
+				0CD81D2B26444425006658BC /* aPlusB10950.swift */,
+				0CD81D3926450627006658BC /* sum8393.swift */,
+				0CD81D3E264508F4006658BC /* n2741.swift */,
+				0CD81D4526451AA8006658BC /* n2742.swift */,
+				0CD81D4F26451C52006658BC /* aPlusB11021.swift */,
+				0CD81D5526451D6A006658BC /* aPlusB11022.swift */,
+				0CD81D5926451DF2006658BC /* star2438.swift */,
+				0CD81D5C26452979006658BC /* star2439.swift */,
+				0CE1E9AE264C2C5200C15327 /* forIf10871.swift */,
+				0CE1E9B1264C345400C15327 /* main.swift */,
 			);
 			path = For;
 			sourceTree = "<group>";
@@ -166,7 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD81D232643B6CF006658BC /* main.swift in Sources */,
+				0CE1E9B2264C345400C15327 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -315,6 +336,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

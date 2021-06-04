@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+func main() {
+    //code
+}
+
+main()
